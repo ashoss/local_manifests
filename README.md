@@ -1,6 +1,6 @@
 ## local_manifest
 
-#### Devices as of 2024/07/24:
+#### Devices as of 2024/08/03:
 
 ##### OnePlus 5T
 ##### OnePlus 6T
