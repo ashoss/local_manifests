@@ -1,0 +1,44 @@
+<manifest>
+	<!-- LineageOS Github -->
+  <remote name="lineage"
+   fetch="https://github.com/LineageOS"
+   revision="lineage-21.0" />
+  
+	<!-- The Muppets Github -->
+  <remote name="muppets"
+   fetch="https://github.com/TheMuppets"
+   revision="lineage-21.0" />
+			  
+	<!-- Pixel 7/7 Pro -->
+	<project name="android_device_google_gs201" path="device/google/gs201" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_gs101" path="device/google/gs101" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_pantah" path="device/google/pantah" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_gs-common" path="device/google/gs-common" remote="lineage" revision="lineage-21"/>
+	<project name="proprietary_vendor_google_cheetah" path="vendor/google/cheetah" remote="muppets" revision="lineage-21"/>
+	<project name="proprietary_vendor_google_panther" path="vendor/google/panther" remote="muppets" revision="lineage-21"/>
+	<project path="device/google/pantah-kernel" name="device/google/pantah-kernel" groups="device,cloudripper" remote="aosp" revision="refs/tags/android-14.0.0_r52" clone-depth="1" />
+	
+	<!-- Pixel 6/6 Pro -->
+	<project name="android_device_google_gs201" path="device/google/gs201" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_gs101" path="device/google/gs101" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_raviole" path="device/google/raviole" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_gs-common" path="device/google/gs-common" remote="lineage" revision="lineage-21"/>
+	<project name="proprietary_vendor_google_oriole" path="vendor/google/oriole" remote="muppets" revision="lineage-21"/> 
+	<project name="proprietary_vendor_google_raven" path="vendor/google/raven" remote="muppets" revision="lineage-21"/> 
+	<project path="device/google/raviole-kernel" name="device/google/raviole-kernel" groups="device,ripcurrent" remote="aosp" revision="refs/tags/android-14.0.0_r50" clone-depth="1" />
+	
+	<!-- Pixel 4a 5G/5 -->
+	<project name="android_device_google_bramble" path="device/google/bramble" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_redfin" path="device/google/redfin" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_redbull" path="device/google/redbull" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_gs-common" path="device/google/gs-common" remote="lineage" revision="lineage-21"/>
+	<project name="android_kernel_google_redbull" path="kernel/google/redbull" remote="lineage" revision="lineage-21"/>
+	<project name="proprietary_vendor_google_bramble" path="vendor/google/bramble" remote="muppets" revision="lineage-21"/>
+	<project name="proprietary_vendor_google_redfin" path="vendor/google/redfin" remote="muppets" revision="lineage-21"/>
+
+	<!-- Pixel 3 XL -->
+	<project name="android_device_google_crosshatch" path="device/google/crosshatch" remote="lineage" revision="lineage-21"/>
+	<project name="android_device_google_gs-common" path="device/google/gs-common" remote="lineage" revision="lineage-21"/>
+	<project name="android_kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="lineage" revision="lineage-21"/>
+	<project name="proprietary_vendor_google_crosshatch" path="vendor/google/crosshatch" remote="muppets" revision="lineage-21"/>
+</manifest>
